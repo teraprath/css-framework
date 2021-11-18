@@ -174,6 +174,10 @@ a.hover-button:hover {
 }
 
 .header .mobile-menu {
+  display: none;
+}
+
+.header .mobile-menu .container {
   top: 0;
   left: 0;
   position: fixed;
@@ -193,7 +197,7 @@ a.hover-button:hover {
   z-index: 200;
 }
 
-.header .mobile-menu .close {
+.header .mobile-menu .container .close {
   position: absolute;
   top: 2em;
   right: 2em;
@@ -201,31 +205,31 @@ a.hover-button:hover {
   transition: all 200ms;
 }
 
-.header .mobile-menu .close:hover {
+.header .mobile-menu .container .close:hover {
   opacity: 0.8;
 }
 
-.header .mobile-menu .close i {
+.header .mobile-menu .container .close i {
   font-size: 3em;
   color: white;
 }
 
-.header .mobile-menu ul, .header .mobile-menu ol {
+.header .mobile-menu .container ul, .header .mobile-menu .container ol {
   list-style-type: none;
 }
 
-.header .mobile-menu ul li, .header .mobile-menu ol li {
+.header .mobile-menu .container ul li, .header .mobile-menu .container ol li {
   text-align: center;
   margin: 1em;
   -webkit-transition: all 200ms;
   transition: all 200ms;
 }
 
-.header .mobile-menu ul li:hover, .header .mobile-menu ol li:hover {
+.header .mobile-menu .container ul li:hover, .header .mobile-menu .container ol li:hover {
   opacity: 0.8;
 }
 
-.header .mobile-menu ul li a, .header .mobile-menu ol li a {
+.header .mobile-menu .container ul li a, .header .mobile-menu .container ol li a {
   font-size: 2rem;
   font-weight: 500;
   color: white;
