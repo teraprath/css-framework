@@ -199,19 +199,20 @@ a.hover-button:hover {
 
 .header .mobile-menu .container .mobile-close {
   position: absolute;
-  top: 2em;
-  right: 2em;
-  -webkit-transition: all 200ms;
-  transition: all 200ms;
+  top: 0;
+  right: 3.5em;
 }
 
-.header .mobile-menu .container .mobile-close:hover {
-  opacity: 0.75;
-}
-
-.header .mobile-menu .container .mobile-close i {
-  font-size: 3em;
-  color: white;
+.header .mobile-menu .container .mobile-close:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "\d7";
+  font-size: 4rem;
+  color: #fff;
+  text-align: center;
 }
 
 .header .mobile-menu .container ul, .header .mobile-menu .container ol {
