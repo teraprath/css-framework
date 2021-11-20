@@ -163,13 +163,13 @@ a.hover-button:hover {
           filter: brightness(95%);
 }
 
-.header .mobile {
+.header .mobile-open {
   display: none;
   -webkit-transition: all 300ms;
   transition: all 300ms;
 }
 
-.header .mobile:hover {
+.header .mobile-open:hover {
   opacity: 0.6;
 }
 
@@ -184,7 +184,7 @@ a.hover-button:hover {
   width: 100%;
   height: 100vh;
   background-color: #0a0a0a;
-  opacity: 0.95;
+  opacity: 0.98;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -197,7 +197,7 @@ a.hover-button:hover {
   z-index: 200;
 }
 
-.header .mobile-menu .container .close {
+.header .mobile-menu .container .mobile-close {
   position: absolute;
   top: 2em;
   right: 2em;
@@ -205,11 +205,11 @@ a.hover-button:hover {
   transition: all 200ms;
 }
 
-.header .mobile-menu .container .close:hover {
-  opacity: 0.8;
+.header .mobile-menu .container .mobile-close:hover {
+  opacity: 0.75;
 }
 
-.header .mobile-menu .container .close i {
+.header .mobile-menu .container .mobile-close i {
   font-size: 3em;
   color: white;
 }
@@ -226,12 +226,12 @@ a.hover-button:hover {
 }
 
 .header .mobile-menu .container ul li:hover, .header .mobile-menu .container ol li:hover {
-  opacity: 0.8;
+  opacity: 0.75;
 }
 
 .header .mobile-menu .container ul li a, .header .mobile-menu .container ol li a {
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 600;
   color: white;
 }
 
@@ -2202,7 +2202,7 @@ a.hover-button:hover {
   .header nav {
     display: none;
   }
-  .header .mobile {
+  .header .mobile-open {
     display: block;
   }
 }
