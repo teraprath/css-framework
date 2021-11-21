@@ -1046,13 +1046,47 @@ a {
 .cursor-grabbing { cursor: grabbing; }
 
 // Responsive
+
+// LAPTOP
+@media screen and (max-width: 1024px) {
+    
+    // Flexbox
+    .responsive-laptop-flex-column { flex-direction: column; }
+    .responsive-laptop-flex-row { flex-direction: row; }
+    .responsive-laptop-flex-justify-center { justify-content: center; }
+    .responsive-laptop-flex-justify-flex-start { justify-content: flex-start; }
+    .responsive-laptop-flex-justify-flex-end { justify-content: flex-end; }
+    .responsive-laptop-flex-justify-space-between { justify-content: space-between; }
+    .responsive-laptop-flex-justify-space-around { justify-content: space-around; }
+    .responsive-laptop-flex-justify-start { justify-content: start; }
+    .responsive-laptop-flex-justify-end { justify-content: end; }
+    .responsive-laptop-flex-justify-left { justify-content: left; }
+    .responsive-laptop-flex-justify-right { justify-content: right; }
+    
+}
+
+// TABLET
 @media screen and (max-width: 800px) {
     
     // Width
     .w-7 { width: 26em; }
+
+    // Flexbox
+    .responsive-tablet-flex-column { flex-direction: column; }
+    .responsive-tablet-flex-row { flex-direction: row; }
+    .responsive-tablet-flex-justify-center { justify-content: center; }
+    .responsive-tablet-flex-justify-flex-start { justify-content: flex-start; }
+    .responsive-tablet-flex-justify-flex-end { justify-content: flex-end; }
+    .responsive-tablet-flex-justify-space-between { justify-content: space-between; }
+    .responsive-tablet-flex-justify-space-around { justify-content: space-around; }
+    .responsive-tablet-flex-justify-start { justify-content: start; }
+    .responsive-tablet-flex-justify-end { justify-content: end; }
+    .responsive-tablet-flex-justify-left { justify-content: left; }
+    .responsive-tablet-flex-justify-right { justify-content: right; }
     
 }
 
+// MOBILE
 @media screen and (max-width: 640px) {
 
     // Width
@@ -1081,5 +1115,18 @@ a {
             display: block;
         }
     }
+
+    // Flexbox
+    .responsive-mobile-flex-column { flex-direction: column; }
+    .responsive-mobile-flex-row { flex-direction: row; }
+    .responsive-mobile-flex-justify-center { justify-content: center; }
+    .responsive-mobile-flex-justify-flex-start { justify-content: flex-start; }
+    .responsive-mobile-flex-justify-flex-end { justify-content: flex-end; }
+    .responsive-mobile-flex-justify-space-between { justify-content: space-between; }
+    .responsive-mobile-flex-justify-space-around { justify-content: space-around; }
+    .responsive-mobile-flex-justify-start { justify-content: start; }
+    .responsive-mobile-flex-justify-end { justify-content: end; }
+    .responsive-mobile-flex-justify-left { justify-content: left; }
+    .responsive-mobile-flex-justify-right { justify-content: right; }
 
 }
