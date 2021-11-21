@@ -32,7 +32,7 @@ a.hover-underline:hover {
 }
 
 a.hover-button:hover {
-  background-color: #f0f0f0;
+  background-color: whitesmoke;
 }
 
 .article {
@@ -154,7 +154,7 @@ a.hover-button:hover {
 }
 
 .header nav ul li a:hover:not(.button), .header nav ol li a:hover:not(.button) {
-  background-color: #f0f0f0;
+  background-color: whitesmoke;
   color: #00d1b2;
 }
 
@@ -247,7 +247,7 @@ a.hover-button:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #f0f0f0;
+  background-color: whitesmoke;
   padding: 0.5em 0.75em;
   font-size: 0.75rem;
   color: #363636;
@@ -278,7 +278,7 @@ a.hover-button:hover {
 }
 
 .badge.light {
-  background-color: #f0f0f0;
+  background-color: whitesmoke;
   color: #363636;
 }
 
@@ -485,7 +485,7 @@ a.hover-button:hover {
 }
 
 .button.light {
-  background-color: #f0f0f0;
+  background-color: whitesmoke;
   color: #4a4a4a;
 }
 
@@ -500,7 +500,7 @@ a.hover-button:hover {
 .progress {
   width: 100%;
   height: 1em;
-  background-color: #f0f0f0;
+  background-color: whitesmoke;
   border-radius: 16px;
 }
 
@@ -562,12 +562,12 @@ a.hover-button:hover {
 }
 
 .table tr:nth-child(even) {
-  background-color: #f0f0f0;
+  background-color: whitesmoke;
 }
 
 .notification {
   width: 32em;
-  background-color: #f0f0f0;
+  background-color: whitesmoke;
   padding: 1.5em;
   border-radius: 8px;
   font-weight: 500;
@@ -723,7 +723,7 @@ a.hover-button:hover {
 }
 
 .color-white-ter {
-  color: #f0f0f0;
+  color: whitesmoke;
 }
 
 .color-grey-lighter {
@@ -791,7 +791,7 @@ a.hover-button:hover {
 }
 
 .bg-color-white-ter {
-  background-color: #f0f0f0;
+  background-color: whitesmoke;
 }
 
 .bg-color-grey-lighter {
