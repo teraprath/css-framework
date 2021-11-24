@@ -1232,6 +1232,14 @@ a {
     .responsive-laptop-pv-8 { padding-top: 4.5em; padding-bottom: 4.5em; }
     .responsive-laptop-pv-9 { padding-top: 5em; padding-bottom: 5em; }
     .responsive-laptop-pv-auto { padding-top: auto; padding-bottom: auto; }
+
+    // Display
+    .responsive-laptop-flex { display: flex; }
+    .responsive-laptop-block { display: block;}
+    .responsive-laptop-inline { display: inline }
+    .responsive-laptop-inline-block { display: inline; }
+    .responsive-laptop-inline-flex { display: inline-flex; }
+    .responsive-laptop-none { display: none; }
     
 }
 
@@ -1423,6 +1431,14 @@ a {
     .responsive-tablet-pv-8 { padding-top: 4.5em; padding-bottom: 4.5em; }
     .responsive-tablet-pv-9 { padding-top: 5em; padding-bottom: 5em; }
     .responsive-tablet-pv-auto { padding-top: auto; padding-bottom: auto; }
+
+    // Display
+    .responsive-tablet-flex { display: flex; }
+    .responsive-tablet-block { display: block;}
+    .responsive-tablet-inline { display: inline }
+    .responsive-tablet-inline-block { display: inline; }
+    .responsive-tablet-inline-flex { display: inline-flex; }
+    .responsive-tablet-none { display: none; }
     
 }
 
@@ -1639,4 +1655,11 @@ a {
     .responsive-mobile-pv-9 { padding-top: 5em; padding-bottom: 5em; }
     .responsive-mobile-pv-auto { padding-top: auto; padding-bottom: auto; }
 
+    // Display
+    .responsive-mobile-flex { display: flex; }
+    .responsive-mobile-block { display: block;}
+    .responsive-mobile-inline { display: inline }
+    .responsive-mobile-inline-block { display: inline; }
+    .responsive-mobile-inline-flex { display: inline-flex; }
+    .responsive-mobile-none { display: none; }
 }
