@@ -73,8 +73,15 @@ a {
     }
 
     &.hover-button {
+        padding: 0.5em 0.75em;
+        margin-left: -0.75em;
+        border-radius: $border-radius-level-1;
+        cursor: pointer;
+
         &:hover {
+            position: relative;
             background-color: $white-ter;
+            padding: 0.5em 0.75em;
         }
     }
 }

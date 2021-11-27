@@ -31,8 +31,17 @@ a.hover-underline:hover {
   text-decoration: underline;
 }
 
+a.hover-button {
+  padding: 0.5em 0.75em;
+  margin-left: -0.75em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 a.hover-button:hover {
+  position: relative;
   background-color: whitesmoke;
+  padding: 0.5em 0.75em;
 }
 
 .article {
@@ -2723,6 +2732,28 @@ a.hover-button:hover {
     padding-top: auto;
     padding-bottom: auto;
   }
+  .responsive-laptop-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .responsive-laptop-block {
+    display: block;
+  }
+  .responsive-laptop-inline {
+    display: inline;
+  }
+  .responsive-laptop-inline-block {
+    display: inline;
+  }
+  .responsive-laptop-inline-flex {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .responsive-laptop-none {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -3290,6 +3321,28 @@ a.hover-button:hover {
   .responsive-tablet-pv-auto {
     padding-top: auto;
     padding-bottom: auto;
+  }
+  .responsive-tablet-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .responsive-tablet-block {
+    display: block;
+  }
+  .responsive-tablet-inline {
+    display: inline;
+  }
+  .responsive-tablet-inline-block {
+    display: inline;
+  }
+  .responsive-tablet-inline-flex {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .responsive-tablet-none {
+    display: none;
   }
 }
 
@@ -3894,5 +3947,27 @@ a.hover-button:hover {
   .responsive-mobile-pv-auto {
     padding-top: auto;
     padding-bottom: auto;
+  }
+  .responsive-mobile-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .responsive-mobile-block {
+    display: block;
+  }
+  .responsive-mobile-inline {
+    display: inline;
+  }
+  .responsive-mobile-inline-block {
+    display: inline;
+  }
+  .responsive-mobile-inline-flex {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .responsive-mobile-none {
+    display: none;
   }
 }
