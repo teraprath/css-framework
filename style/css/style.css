@@ -1877,6 +1877,14 @@ a.hover-button:hover {
   width: 32em;
 }
 
+.w-8 {
+  width: 48em;
+}
+
+.w-9 {
+  width: 64em;
+}
+
 .h-full {
   height: 100vh;
 }
@@ -2170,6 +2178,12 @@ a.hover-button:hover {
 }
 
 @media screen and (max-width: 1024px) {
+  .w-8 {
+    width: 32em;
+  }
+  .w-9 {
+    width: 48em;
+  }
   .responsive-laptop-flex-column {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2758,6 +2772,12 @@ a.hover-button:hover {
 
 @media screen and (max-width: 800px) {
   .w-7 {
+    width: 26em;
+  }
+  .w-8 {
+    width: 26em;
+  }
+  .w-9 {
     width: 26em;
   }
   .responsive-tablet-flex-column {
@@ -3354,6 +3374,12 @@ a.hover-button:hover {
     width: 20em;
   }
   .w-7 {
+    width: 20em;
+  }
+  .w-8 {
+    width: 20em;
+  }
+  .w-9 {
     width: 20em;
   }
   .size-1 {

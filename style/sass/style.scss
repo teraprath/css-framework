@@ -969,6 +969,8 @@ a {
 .w-5 { width: 20em; }
 .w-6 { width: 24em; }
 .w-7 { width: 32em; }
+.w-8 { width: 48em; }
+.w-9 { width: 64em; }
 
 .h-full { height: 100vh; }
 .h-1 { height: 4em; }
@@ -1056,6 +1058,10 @@ a {
 
 // LAPTOP
 @media screen and (max-width: 1024px) {
+
+    // Width
+    .w-8 { width: 32em; }
+    .w-9 { width: 48em; }
     
     // Flexbox
     .responsive-laptop-flex-column { flex-direction: column; }
@@ -1255,6 +1261,8 @@ a {
     
     // Width
     .w-7 { width: 26em; }
+    .w-8 { width: 26em; }
+    .w-9 { width: 26em; }
 
     // Flexbox
     .responsive-tablet-flex-column { flex-direction: column; }
@@ -1456,6 +1464,8 @@ a {
     .w-5 { width: 20em; }
     .w-6 { width: 20em; }
     .w-7 { width: 20em; }
+    .w-8 { width: 20em; }
+    .w-9 { width: 20em; }
 
     // Font sizes
     .size-1 { font-size: 2.75rem; }
