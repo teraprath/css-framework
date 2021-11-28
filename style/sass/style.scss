@@ -787,6 +787,11 @@ a {
 .inline-flex { display: inline-flex; }
 .none { display: none; }
 
+// Overflow
+.overflow-hidden { overflow: hidden; }
+.overflow-visible { overflow: visible; }
+.overflow-scroll { overflow: scroll; }
+
 // Margin
 .m-0 { margin: 0; }
 .m-1 { margin: 1em; }

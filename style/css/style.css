@@ -1173,6 +1173,18 @@ a.hover-button:hover {
   display: none;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-visible {
+  overflow: visible;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
 .m-0 {
   margin: 0;
 }
